@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:orientation="vertical"
+android:layout_height="match_parent"
+tools:context=".EntryFragment"
+android:weightSum="9">
+
+
+    <EditText
+    android:id="@+id/firstname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:gravity="center"
+    android:inputType="text"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:hint="@string/firstname"
+    />
+
+<EditText
+    android:id="@+id/surname"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:gravity="center"
+    android:inputType="text"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:hint="@string/surname" />
+
+<EditText
+    android:id="@+id/patronymic"
+    style="@style/Widget.AppCompat.AutoCompleteTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:gravity="center"
+    android:inputType="text"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:hint="@string/patronymic" />
+
+
+
+    <Button
+    android:id="@+id/who_are_you_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:backgroundTint="@color/white"
+    android:hint="@string/whoareyou"
+    android:textAllCaps="false"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    app:cornerRadius="0sp" />
+
+    <EditText
+    android:id="@+id/phonenumber"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:gravity="center"
+    android:inputType="phone"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:hint="@string/phonenumber" />
+
+    <EditText
+    android:id="@+id/editTextText6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:gravity="center"
+    android:inputType="text"
+    android:hint="@string/loginname"
+    android:textColor="@color/black"
+    android:textSize="15sp" />
+
+    <EditText
+    android:id="@+id/pasword"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:inputType="text"
+    android:hint="@string/password" />
+
+<EditText
+    android:id="@+id/passwordretry"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:ems="10"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="15sp"
+    android:hint="@string/passwordretry" />
+
+    <Button
+    android:id="@+id/finidhbutton"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="@string/finish"
+    app:cornerRadius="0sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Golden_Knight_Project</string>
+    
+    
+    <string name="authorization">Авторизация</string>
+    
+    
+    <string name="login">Регистрация</string>
+    <string name="entry">Вход</string>
+    
+    
+    <string name="firstname">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="patronymic">Отчество (если имеется)</string>
+    <string name="whoareyou">Кем вы являетесь</string>
+    <string name="phonenumber">Ваш номер телефона</string>
+    <string name="loginname">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="passwordretry">Повтор пароля</string>
+    <string name="finish">Зарегестрироваться</string>
+    
+    <string name="sportsman">Спортсмен</string>
+    <string name="coach">Тренер</string>
+    <string name="parent">Родитель</string>
+</resources>
